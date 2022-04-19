@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GameZone - Tic-Tac-Toe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="icon" href="gamepad-solid.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="gameslist.css">
+</head>
+
+<body>
+    <nav></nav>
+
+    <div class="stuff">
+        <div class="gameLeft">
+            <div class="gameMain"><iframe src="https://i.simmer.io/@CoderGuru/tic-tac-toe"></iframe></div>
+            <div class="gameDesc">
+                <div class="gameMainInfo">
+                    <div class="gameMainInfoCaption">Tic-Tac-Toe</div>
+                    <div class="gameMainInfoCaption">By CoderGuru</div>
+                </div>
+                <div class="gameInfo">
+                    <div class="gameInfoText">
+                        <div class="gameInfoTextTitle">Tic-Tac-Toe</div>
+                        <div class="gameInfoTextInfo"><b>How to Play: </b>This is a 2 Player Game. Press Start to Play.
+                            The Game Works like Noughts and Crosses, which One Player has to make a Line, or Diagonal
+                            with 3 pieces to win. The Noughts are 'O's and the Crosses are 'X's. Noughts go First.</div>
+                        <div class="gameInfoTextInfo"><b>Version: </b>1.0.0</div>
+                        <div class="gameInfoTextInfo"><b>Date Added: </b>14/7/21</div>
+                        <div class="gameInfoTextInfo"><b>Tags: </b>2D, Unity, Desktop, WebGL, Brainpower, 2 Player</div>
+                        <div class="gameInfoTextIcons">
+                            <button class="gameInfoTextIcon"><i class="fab fa-unity"></i></button>
+                            <button class="gameInfoTextIcon"><i class="fas fa-desktop"></i></button>
+                            <button class="gameInfoTextIcon"><i class="fab fa-html5"></i></button>
+                            <button class="gameInfoTextIcon" style="-webkit-text-stroke: 1px var(--black3);"><i
+                                    class="fas fa-code"></i></button>
+                            <button class="gameInfoTextIcon" style="-webkit-text-stroke: 1px var(--black3);"><i
+                                    class="fas fa-brain"></i></button>
+                            <button class="gameInfoTextIcon" style="-webkit-text-stroke: 1px var(--black3);"><i
+                                    class="fas fa-user-friends"></i></button>
+                        </div>
+                    </div>
+                    <div class="gameInfoDownload">
+                        <a class="gameDownload" href="applications/TicTacToe_Windows.zip" download><i
+                                class="fab fa-windows"></i>&nbsp;Download for Windows</a>
+                        <a class="gameDownload" href="applications/TicTacToe_Mac.zip" download><i
+                                class="fab fa-apple"></i>&nbsp;Download for Mac</a>
+                        <a class="gameDownload" href="applications/TicTacToe_WebGL.zip" download><i
+                                class="fab fa-html5"></i>&nbsp;Download WebGL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gameRight">
+            <div class="gameOthers">
+                <div class="gameOther">Other Games</div>
+                <a class="gameItem" href="maze.html" style="cursor: pointer; text-decoration: none;">
+                    <img class="gameImg" src="thumbnails/maze.jpg">
+                    <div class="gameName">Maze</div>
+                </a>
+                <a class="gameItem" href="cuberush.html" style="cursor: pointer; text-decoration: none;">
+                    <img class="gameImg" src="thumbnails/cuberush.jpg">
+                    <div class="gameName">Cube Rush</div>
+                </a>
+                <a class="gameItem" href="mazegamepro3.html" style="cursor: pointer; text-decoration: none;">
+                    <img class="gameImg" src="thumbnails/169.jpg">
+                    <div class="gameName">Maze Game Pro 3</div>
+                </a>
+                <a class="gameItem" href="platformer1.html" style="cursor: pointer; text-decoration: none;">
+                    <img class="gameImg" src="thumbnails/169.jpg">
+                    <div class="gameName">Platformer 1</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer style="height: 30px"></footer>
+    <footer class="footer">© CoderGuru 2021</footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="navbar.js" async defer></script>
+    <script src="database.js" async defer></script>
+    <script src="fixsize.js" async defer></script>
+    <script src="script.js" async defer></script>
+    <script src="mobile.js" async defer></script>
+</body>
+
+</html>

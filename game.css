@@ -1,0 +1,182 @@
+.stuff {
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+}
+
+.gameLeft {
+    width: min-content;
+    height: 100%;
+
+    padding: 30px;
+}
+
+.gameRight {
+    width: 30%;
+    height: 100%;
+
+    padding: 20px;
+}
+
+.gameMain {
+    width: 70vw;
+    height: 39.375vw;
+
+    background-color: var(--black3);
+
+    border-radius: 15px;
+}
+
+.gameOther {
+    width: 100%;
+    height: min-content;
+
+    font-size: 30px;
+
+    color: var(--color);
+
+    border-bottom: 2px solid var(--color);
+
+    margin-bottom: 20px;
+}
+
+.gameOthers {
+    height: min-content;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameItem {
+    margin: 0;
+}
+
+.gameDesc {
+    height: 75vh;
+}
+
+.gameMainInfo {
+    width: 90%;
+    height: 60px;
+
+    border-radius: 10px;
+
+    background-color: var(--black2);
+
+    margin: 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameMainInfoCaption {
+    margin: 20px;
+
+    color: var(--color);
+
+    font-size: 18px;
+}
+
+.gameInfo {
+    width: 90%;
+    height: 460px;
+
+    border-radius: 10px;
+
+    background-color: var(--black2);
+
+    margin: 5%;
+}
+
+.gameInfoText {
+    width: 90%;
+    height: 335px;
+
+    margin: 5%;
+
+    border-bottom: 2px solid var(--black3);
+}
+
+.gameInfoTextTitle {
+    text-align: center;
+
+    font-size: 23px;
+
+    font-weight: bold;
+
+    color: var(--color);
+
+    padding-top: 5%;
+}
+
+.gameInfoTextInfo {
+    font-size: 16px;
+
+    padding-top: 10px;
+
+    color: var(--color);
+}
+
+.gameInfoTextIcons {
+    width: 90%;
+    height: 75px;
+
+    margin: 5%;
+    margin-top: 2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameInfoTextIcon {
+    font-size: 25px;
+
+    text-decoration: none;
+
+    outline: none;
+
+    border: 0;
+
+    color: var(--color);
+
+    /* -webkit-text-stroke: 1px var(--black3); */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--black3);
+
+    border-radius: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    margin-right: 15px;
+}
+
+.gameInfoDownload {
+    margin: 5%;
+
+    margin-left: 9%;
+    margin-right: auto;
+}
+
+.gameDownload {
+    color: var(--color);
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    padding: 15px;
+
+    margin-right: 25px;
+
+    border-radius: 10px;
+
+    border: 3px solid var(--color);
+}
