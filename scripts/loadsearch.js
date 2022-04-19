@@ -10,15 +10,7 @@ var gamesList = document.createElement("div");
 gamesList.classList.add("gamesList");
 document.querySelector(".stuff").appendChild(gamesList);
 
-if (document.URL.includes("index.html") || document.URL.includes("allgames.html")) {
-    loadAll(document.querySelector(".gamesList"));
-} else if (document.URL.includes("recommended.html")) {
-    loadRecommended(document.querySelector(".gamesList"));
-} else if (document.URL.includes("2d.html")) {
-    load2D(document.querySelector(".gamesList"));
-} else if (document.URL.includes("3d.html")) {
-    load3D(document.querySelector(".gamesList"));
-}
+loadAll(document.querySelector(".gamesList"));
 
 sortGames(query, document.querySelector(".gamesList"), document.querySelectorAll(".gameItem"));
 
