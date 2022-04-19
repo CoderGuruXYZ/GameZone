@@ -2,8 +2,6 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 var query = urlParams.get('query');
 
-document.querySelector(".gamesList").innerHTML = "";
-
 // var pillow = document.createElement("div");
 // pillow.classList.add("pillow");
 // document.querySelector(".stuff").appendChild(pillow);
