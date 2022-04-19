@@ -54,7 +54,7 @@ function loadAll(parent) {
 function sortGames(input2, ul2, li2) {
     var i;
     var input = input2;
-    var filter = input.value.toLowerCase();
+    var filter = input.toLowerCase();
     var ul = ul2;
     var li = li2;
     for (i = 0; i < li.length; i++) {
